@@ -755,6 +755,8 @@ img {
   cursor: pointer;
 }
 
+
+
 .form-input {
   position: relative;
   width: 100%;
@@ -801,6 +803,10 @@ img {
   padding-left: 27px;
   font-size: 14px;
   line-height: 1.71;
+}
+
+.checkbox:focus ~ .icon-chek {
+  border-color: var(--accent-color);
 }
 
 .contract {
