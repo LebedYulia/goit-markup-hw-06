@@ -420,12 +420,15 @@ img {
   align-items: baseline;
 }
 
+.addres_thumb{
+  margin-right: 70px;
+}
 .footer-list .item:not(:last-child) {
   padding-bottom: 9px;
 }
 
 .footer-list {
-  margin: 20px 70px 0 0;
+  margin-top: 20px;
 }
 
 .footer-list .link {
@@ -509,27 +512,19 @@ img {
 }
 
 .subscription-submit {
-  position: relative;
+  display: inline-flex;
+  align-items: center;
 
   padding: 10px 29px;
-  margin-left: 10px;
-
-  text-align: left;
+  margin-left: 10px;  
 }
 
-.send-icon {
-  position: absolute;
-  transform: translateY(15%);
-
+.send-icon {  
   margin-left: 10px;
   fill: var(--primary-bg-color);
 }
 
 /* Filter */
-.adress {
-  display: flex;
-  align-items: center;
-}
 
 .filter-list {
   display: flex;
@@ -793,14 +788,13 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.label-policy {
-  position: relative;
-  display: block;
-  text-align: center;
+.label-policy {  
+  display: flex;  
+  align-items: center;
+  justify-content: center;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 18px;
-  padding-left: 27px;
+  margin-top: 18px;  
   font-size: 14px;
   line-height: 1.71;
 }
@@ -810,18 +804,14 @@ img {
 }
 
 .contract {
+  margin-left: 5px;
   color: var(--accent-color);
 }
 
-.icon-chek {
-  position: absolute;
-  left: 12px;
-  bottom: 0;
-  transform: translateY(-25%);
-
-  display: inline-block;
+.icon-chek {  
   width: 16px;
   height: 15px;
+  margin-right: 8px;
 
   border: 2px solid var(--title-text-color);
   border-radius: 2px;
@@ -834,8 +824,8 @@ img {
 }
 
 .button-modal {
-  position: absolute;
-  left: 50%;
-  bottom: 40px;
-  transform: translateX(-50%);
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
